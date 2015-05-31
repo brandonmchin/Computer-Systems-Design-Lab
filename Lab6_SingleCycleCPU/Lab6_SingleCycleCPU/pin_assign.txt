@@ -1,0 +1,38 @@
+to, location
+
+Instruction[0], PIN_N25
+Instruction[1], PIN_N26
+
+Instruction[2], PIN_P25
+Instruction[3], PIN_AE14
+Instruction[4], PIN_AF14
+Instruction[5], PIN_AD13
+
+Instruction[6], PIN_AC13
+Instruction[7], PIN_C13
+Instruction[8], PIN_B13
+Instruction[9], PIN_A13
+
+Instruction[10], PIN_N1
+Instruction[11], PIN_P1
+Instruction[12], PIN_P2
+Instruction[13], PIN_T7
+
+Instruction[14], PIN_U3
+Instruction[15], PIN_U4
+
+WE, PIN_V1
+Clock, PIN_V2
+
+busW[0], PIN_AE23
+busW[1], PIN_AF23
+busW[2], PIN_AB21
+busW[3], PIN_AC22
+
+HEX0[0], PIN_AF10
+HEX0[1], PIN_AB12
+HEX0[2], PIN_AC12
+HEX0[3], PIN_AD11
+HEX0[4], PIN_AE11
+HEX0[5], PIN_V14
+HEX0[6], PIN_V13

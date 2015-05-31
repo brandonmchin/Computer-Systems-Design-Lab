@@ -1,0 +1,84 @@
+|eight_bit_equal_port
+a[0] => equal:H1.I0
+a[1] => equal:H2.I0
+a[2] => equal:H3.I0
+a[3] => equal:H4.I0
+a[4] => equal:H5.I0
+a[5] => equal:H6.I0
+a[6] => equal:H7.I0
+a[7] => equal:H8.I0
+b[0] => equal:H1.I1
+b[1] => equal:H2.I1
+b[2] => equal:H3.I1
+b[3] => equal:H4.I1
+b[4] => equal:H5.I1
+b[5] => equal:H6.I1
+b[6] => equal:H7.I1
+b[7] => equal:H8.I1
+aeqb <= aeqb~6.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bit_equal_port|equal:H1
+I0 => P1.IN0
+I0 => P0.IN0
+I1 => P1.IN1
+I1 => P0.IN1
+Eq <= Eq~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bit_equal_port|equal:H2
+I0 => P1.IN0
+I0 => P0.IN0
+I1 => P1.IN1
+I1 => P0.IN1
+Eq <= Eq~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bit_equal_port|equal:H3
+I0 => P1.IN0
+I0 => P0.IN0
+I1 => P1.IN1
+I1 => P0.IN1
+Eq <= Eq~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bit_equal_port|equal:H4
+I0 => P1.IN0
+I0 => P0.IN0
+I1 => P1.IN1
+I1 => P0.IN1
+Eq <= Eq~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bit_equal_port|equal:H5
+I0 => P1.IN0
+I0 => P0.IN0
+I1 => P1.IN1
+I1 => P0.IN1
+Eq <= Eq~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bit_equal_port|equal:H6
+I0 => P1.IN0
+I0 => P0.IN0
+I1 => P1.IN1
+I1 => P0.IN1
+Eq <= Eq~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bit_equal_port|equal:H7
+I0 => P1.IN0
+I0 => P0.IN0
+I1 => P1.IN1
+I1 => P0.IN1
+Eq <= Eq~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|eight_bit_equal_port|equal:H8
+I0 => P1.IN0
+I0 => P0.IN0
+I1 => P1.IN1
+I1 => P0.IN1
+Eq <= Eq~0.DB_MAX_OUTPUT_PORT_TYPE
+
+

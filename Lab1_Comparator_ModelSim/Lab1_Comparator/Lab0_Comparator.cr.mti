@@ -1,0 +1,65 @@
+{C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_8-bit_comparator_port.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_8-bit_comparator_port.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Test_eight_bit_equal_port_map
+-- Compiling architecture arch_test of Test_eight_bit_equal_port_map
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/8-bit_comparator_port.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/8-bit_comparator_port.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity eight_bit_equal_port
+-- Compiling architecture arch of eight_bit_equal_port
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_1-bit_comparator.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_1-bit_comparator.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_equal
+-- Compiling architecture arch_test of test_equal
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_2-bit_comparator_port.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_2-bit_comparator_port.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Test_two_bit_equal
+-- Compiling architecture arch_test of test_two_bit_equal
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_2-bit_comparator.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_2-bit_comparator.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity Test_two_bit_equal
+-- Compiling architecture arch_test of test_two_bit_equal
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/1-bit_comparator.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/1-bit_comparator.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity equal
+-- Compiling architecture arch of equal
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator_port.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator_port.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity two_bit_equal_port
+-- Compiling architecture arch of two_bit_equal_port
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity two_bit_equal
+-- Compiling architecture arch of two_bit_equal
+
+} {} {}}

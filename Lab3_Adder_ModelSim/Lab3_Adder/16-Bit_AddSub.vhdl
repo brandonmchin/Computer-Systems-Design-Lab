@@ -1,0 +1,94 @@
+-- XOR gate
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity xorGate is	
+   port( a, b : in std_logic;
+            f : out std_logic);
+end xorGate;
+--
+architecture ARCH of xorGate is 
+begin
+   f <= a xor b; 
+end ARCH;
+
+-- FULL BIT ADDER
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity full_adder is
+   port( x, y, cin : in std_logic;
+         sum, cout : out std_logic);
+end full_adder;
+
+architecture ARCH of full_adder is
+begin
+   sum <= (x xor y) xor cin;
+   cout <= (x and (y or cin)) or (cin and y);
+end ARCH;
+
+-- 16-bit Adder/Subtractor
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity addsub16 is 
+   port( mode             : in std_logic;
+	  A		  : in std_logic_vector(15 downto 0);
+	  B		  : in std_logic_vector(15 downto 0);
+	  S		  : out std_logic_vector(15 downto 0);
+          cout, overflow  : out std_logic);
+end addsub16;
+
+architecture struct of addsub16 is
+
+   component xorGate is             --XOR component
+       port( a, b : in std_logic;
+                f : out std_logic);
+   end component;
+
+   component full_adder is	         --FULL ADDER component
+      port( x, y, cin : in std_logic;
+            sum, cout : out std_logic);
+   end component;
+
+   signal C	:std_logic_vector(15 downto 0);		-- intermediate carries
+   signal X	: std_logic_vector(15 downto 0);	-- xor outputs
+
+begin
+   GX0: xorGate port map(mode, B(0), X(0)); 
+   GX1: xorGate port map(mode, B(1), X(1)); 
+   GX2: xorGate port map(mode, B(2), X(2)); 
+   GX3: xorGate port map(mode, B(3), X(3));
+   GX4: xorGate port map(mode, B(4), X(4)); 
+   GX5: xorGate port map(mode, B(5), X(5));
+   GX6: xorGate port map(mode, B(6), X(6)); 
+   GX7: xorGate port map(mode, B(7), X(7)); 
+   GX8: xorGate port map(mode, B(8), X(8)); 
+   GX9: xorGate port map(mode, B(9), X(9)); 
+   GX10: xorGate port map(mode, B(10), X(10)); 
+   GX11: xorGate port map(mode, B(11), X(11)); 
+   GX12: xorGate port map(mode, B(12), X(12)); 
+   GX13: xorGate port map(mode, B(13), X(13));
+   GX14: xorGate port map(mode, B(14), X(14)); 
+   GX15: xorGate port map(mode, B(15), X(15));   
+
+   FA0: full_adder port map(A(0), X(0), mode,  S(0), C(0));
+   FA1: full_adder port map(A(1), X(1), C(0),  S(1), C(1));
+   FA2: full_adder port map(A(2), X(2), C(1),  S(2), C(2));
+   FA3: full_adder port map(A(3), X(3), C(2),  S(3), C(3));
+   FA4: full_adder port map(A(4), X(4), C(3),  S(4), C(4));
+   FA5: full_adder port map(A(5), X(5), C(4),  S(5), C(5));
+   FA6: full_adder port map(A(6), X(6), C(5),  S(6), C(6));
+   FA7: full_adder port map(A(7), X(7), C(6),  S(7), C(7));
+   FA8: full_adder port map(A(8), X(8), C(7),  S(8), C(8));
+   FA9: full_adder port map(A(9), X(9), C(8),  S(9), C(9));
+   FA10: full_adder port map(A(10), X(10), C(9),  S(10), C(10));
+   FA11: full_adder port map(A(11), X(11), C(10),  S(11), C(11));
+   FA12: full_adder port map(A(12), X(12), C(11),  S(12), C(12));
+   FA13: full_adder port map(A(13), X(13), C(12),  S(13), C(13));
+   FA14: full_adder port map(A(14), X(14), C(13),  S(14), C(14));
+   FA15: full_adder port map(A(15), X(15), C(14),  S(15), C(15));
+   
+   overflow_out: xorGate port map(C(14), C(15), overflow);                
+   cout <= C(15);                                       
+end struct;

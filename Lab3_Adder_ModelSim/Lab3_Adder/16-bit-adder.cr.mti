@@ -1,0 +1,57 @@
+{C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/16-Bit_AddSub.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/16-Bit_AddSub.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity xorGate
+-- Compiling architecture ARCH of xorGate
+-- Compiling entity full_adder
+-- Compiling architecture ARCH of full_adder
+-- Compiling entity addsub16
+-- Compiling architecture struct of addsub16
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_1_bit_Adder.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_1_bit_Adder.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity TEST_ADD
+-- Compiling architecture TEST of TEST_ADD
+-- Loading entity BIT_ADDER
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_2_bit_Adder.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_2_bit_Adder.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity TEST_ADD2
+-- Compiling architecture TEST of TEST_ADD2
+-- Loading entity add2
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/1_Bit_Adder.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/1_Bit_Adder.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BIT_ADDER
+-- Compiling architecture BHV of BIT_ADDER
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/2_Bit_Adder.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/2_Bit_Adder.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity BIT_ADDER
+-- Compiling architecture BHV of BIT_ADDER
+-- Compiling entity add2
+-- Compiling architecture STRUCTURE of add2
+
+} {} {}} {C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_16-Bit_AddSub.vhdl} {1 {vcom -work work -2002 -explicit -stats=none {C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_16-Bit_AddSub.vhdl}
+Model Technology ModelSim PE Student Edition vcom 10.4 Compiler 2014.12 Dec  3 2014
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity test_addsub16
+-- Compiling architecture arch of test_addsub16
+
+} {} {}}

@@ -1,0 +1,88 @@
+LIBRARY IEEE;
+use IEEE.STD_LOGIC_1164.ALL;
+
+entity sram16 is
+	port( DataIn		 : in STD_LOGIC_VECTOR(3 downto 0);
+	      Reg			 : in STD_LOGIC_VECTOR(15 downto 0);
+	      WE, CS, OE     : in STD_LOGIC;
+	      DataOut        : out STD_LOGIC_VECTOR(3 downto 0));
+end sram16;
+
+architecture arch of sram16 is
+
+	component sram_register			-- SRAM Register component
+		port (DataIn			    							: in STD_LOGIC_VECTOR(3 downto 0);
+			  Sel, Write_Enable, Chip_Select, Output_Enable     : in STD_LOGIC;
+			  DataOut               							: out STD_LOGIC_VECTOR(3 downto 0));
+	end component;
+	
+	-- output of each register
+	signal t0,t1,t2,t3,t4,t5,t6,t7,t8,t9,t10,t11,t12,t13,t14,t15: std_logic_vector(3 downto 0);
+	
+	begin
+		address0: sram_register port map(DataIn, Reg(0), WE, CS, OE, t0);
+		address1: sram_register port map(DataIn, Reg(1), WE, CS, OE, t1);
+		address2: sram_register port map(DataIn, Reg(2), WE, CS, OE, t2);
+		address3: sram_register port map(DataIn, Reg(3), WE, CS, OE, t3);
+		address4: sram_register port map(DataIn, Reg(4), WE, CS, OE, t4);
+		address5: sram_register port map(DataIn, Reg(5), WE, CS, OE, t5);
+		address6: sram_register port map(DataIn, Reg(6), WE, CS, OE, t6);
+		address7: sram_register port map(DataIn, Reg(7), WE, CS, OE, t7);
+		address8: sram_register port map(DataIn, Reg(8), WE, CS, OE, t8);
+		address9: sram_register port map(DataIn, Reg(9), WE, CS, OE, t9);
+		address10: sram_register port map(DataIn, Reg(10), WE, CS, OE, t10);
+		address11: sram_register port map(DataIn, Reg(11), WE, CS, OE, t11);
+		address12: sram_register port map(DataIn, Reg(12), WE, CS, OE, t12);
+		address13: sram_register port map(DataIn, Reg(13), WE, CS, OE, t13);
+		address14: sram_register port map(DataIn, Reg(14), WE, CS, OE, t14);
+		address15: sram_register port map(DataIn, Reg(15), WE, CS, OE, t15);
+		
+		process(t0)
+		begin
+			if (t0 /= "ZZZZ") then DataOut <= t0; else DataOut <= "ZZZZ";
+			end if;
+		end process;
+		
+		process(t1)
+		begin
+			if (t1 /= "ZZZZ") then DataOut <= t1; else DataOut <= "ZZZZ";
+			end if;
+		end process;
+		
+		process(t2)
+		begin
+			if (t2 /= "ZZZZ") then DataOut <= t2; else DataOut <= "ZZZZ";
+			end if;
+		end process;
+		
+		process(t3)
+		begin
+			if (t3 /= "ZZZZ") then DataOut <= t3; else DataOut <= "ZZZZ";
+			end if;
+		end process;
+		
+		process(t4)
+		begin
+			if (t4 /= "ZZZZ") then DataOut <= t4; else DataOut <= "ZZZZ";
+			end if;
+		end process;
+		
+		process(t5)
+		begin
+			if (t5 /= "ZZZZ") then DataOut <= t5; else DataOut <= "ZZZZ";
+			end if;
+		end process;
+		
+		process(t6)
+		begin
+			if (t6 /= "ZZZZ") then DataOut <= t6; else DataOut <= "ZZZZ";
+			end if;
+		end process;
+		
+		process(t7)
+		begin
+			if (t7 /= "ZZZZ") then DataOut <= t7; else DataOut <= "ZZZZ";
+			end if;
+		end process;
+	
+end arch;

@@ -1,0 +1,304 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/brandon/Documents/Systems Organization/lab1
+Eeight_bit_equal_port
+Z0 w1423442904
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/brandon/Documents/Systems Organization/Lab0_Comparator
+Z4 8C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/8-bit_comparator_port.vhdl
+Z5 FC:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/8-bit_comparator_port.vhdl
+l0
+L4
+Vk[bA337W:JYkU7a4F@cZj0
+!s100 kbBSbH^1WCVbd[7DWie3>3
+Z6 OP;C;10.4;61
+32
+Z7 !s110 1424232657
+!i10b 1
+Z8 !s108 1424232657.921000
+Z9 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/8-bit_comparator_port.vhdl|
+Z10 !s107 C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/8-bit_comparator_port.vhdl|
+!i113 1
+Z11 o-work work -2002 -explicit -O0
+Z12 tExplicit 1
+Aarch
+R1
+R2
+Z13 DEx4 work 20 eight_bit_equal_port 0 22 k[bA337W:JYkU7a4F@cZj0
+l21
+L10
+Z14 V]6ERE?c_Z61b4_I`<c3hz0
+Z15 !s100 d^LSU@bb>bYGcbYg9FWk@0
+R6
+32
+R7
+!i10b 1
+R8
+R9
+R10
+!i113 1
+R11
+R12
+Eequal
+Z16 w1423423903
+R1
+R2
+R3
+Z17 8C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/1-bit_comparator.vhdl
+Z18 FC:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/1-bit_comparator.vhdl
+l0
+L4
+VLFKNMCU_VRVDofUccKLd21
+!s100 ;2o3RG0>XJ2DR`bNZ[EOd1
+R6
+32
+Z19 !s110 1424232653
+!i10b 1
+Z20 !s108 1424232653.468000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/1-bit_comparator.vhdl|
+Z22 !s107 C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/1-bit_comparator.vhdl|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 5 equal 0 22 LFKNMCU_VRVDofUccKLd21
+l12
+L10
+VeSDW9X[:@m4IAbomG6_AL2
+!s100 oCiW`hDNdZP1zN9kledch2
+R6
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R11
+R12
+Etest_eight_bit_equal_port_map
+Z23 w1423441924
+R1
+R2
+R3
+Z24 8C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_8-bit_comparator_port.vhdl
+Z25 FC:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_8-bit_comparator_port.vhdl
+l0
+L4
+V<RWSRQIOkCSKkN6WkbNbN2
+!s100 ^d_^>bf:DI72deXVQ?3n91
+R6
+32
+Z26 !s110 1424232654
+!i10b 1
+Z27 !s108 1424232654.921000
+Z28 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_8-bit_comparator_port.vhdl|
+Z29 !s107 C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_8-bit_comparator_port.vhdl|
+!i113 1
+R11
+R12
+Aarch_test
+R1
+R2
+DEx4 work 29 test_eight_bit_equal_port_map 0 22 <RWSRQIOkCSKkN6WkbNbN2
+l17
+L7
+VT]Lnz[P9A;Fd=m1VfS^dW1
+!s100 3UD2[Y^i1zL]fKnak86;m2
+R6
+32
+R26
+!i10b 1
+R27
+R28
+R29
+!i113 1
+R11
+R12
+Etest_equal
+Z30 w1423430562
+R1
+R2
+R3
+Z31 8C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_1-bit_comparator.vhdl
+Z32 FC:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_1-bit_comparator.vhdl
+l0
+L4
+VQg;>J5OaG4A4cWz8aI24Z3
+!s100 ZXk;MmGa870S2U2B9=;3G0
+R6
+32
+Z33 !s110 1424232655
+!i10b 1
+Z34 !s108 1424232655.515000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_1-bit_comparator.vhdl|
+Z36 !s107 C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_1-bit_comparator.vhdl|
+!i113 1
+R11
+R12
+Aarch_test
+R1
+R2
+DEx4 work 10 test_equal 0 22 Qg;>J5OaG4A4cWz8aI24Z3
+l17
+L7
+VzAL[1CmF?N18;S?_?:eUY1
+!s100 YJGoXazAF8DFQW;Z7UPEW1
+R6
+32
+R33
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R11
+R12
+Etest_two_bit_equal
+Z37 w1423432126
+R1
+R2
+R3
+Z38 8C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_2-bit_comparator_port.vhdl
+Z39 FC:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_2-bit_comparator_port.vhdl
+l0
+L4
+VH?I<bMhE=KUKXC9hML68O3
+!s100 XjN1MAUQaXYT964Po1=NP3
+R6
+32
+R7
+!i10b 1
+Z40 !s108 1424232657.328000
+Z41 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_2-bit_comparator_port.vhdl|
+Z42 !s107 C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/test_2-bit_comparator_port.vhdl|
+!i113 1
+R11
+R12
+Aarch_test
+R1
+R2
+DEx4 work 18 test_two_bit_equal 0 22 H?I<bMhE=KUKXC9hML68O3
+l17
+L7
+V@k:>``Ze4`5z1m:6JC]_d2
+!s100 >[o^Bj_h@IK2hHe2<4QOd0
+R6
+32
+R7
+!i10b 1
+R40
+R41
+R42
+!i113 1
+R11
+R12
+Etest_two_bit_equal_port
+w1423431969
+R1
+R2
+Z43 dC:/Users/brandon/Documents/Systems Organization/practice_lab
+8C:/Users/brandon/Documents/Systems Organization/practice_lab/test_2-bit_comparator_port.vhdl
+FC:/Users/brandon/Documents/Systems Organization/practice_lab/test_2-bit_comparator_port.vhdl
+l0
+L4
+V5@PA`PjBHGC`:HIGnQe]F2
+!s100 M`5jj_1PG`1inKglOA26n0
+R6
+32
+!s110 1423432014
+!i10b 1
+!s108 1423432014.361000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/practice_lab/test_2-bit_comparator_port.vhdl|
+!s107 C:/Users/brandon/Documents/Systems Organization/practice_lab/test_2-bit_comparator_port.vhdl|
+!i113 1
+R11
+R12
+Etwo_bit_equal
+Z44 w1423430417
+R1
+R2
+R3
+Z45 8C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator.vhdl
+Z46 FC:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator.vhdl
+l0
+L4
+VjQZ6;SAJW6;:O0VGUIlAc0
+!s100 Djc^>BIPN]OSnX:hnfg<b3
+R6
+32
+R26
+!i10b 1
+Z47 !s108 1424232654.343000
+Z48 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator.vhdl|
+Z49 !s107 C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator.vhdl|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 13 two_bit_equal 0 22 jQZ6;SAJW6;:O0VGUIlAc0
+l12
+L10
+VNQ3Ln5?=kzn@OHJnW59K[0
+!s100 Pe:fl`eli_nYRR0a`L]^T2
+R6
+32
+R26
+!i10b 1
+R47
+R48
+R49
+!i113 1
+R11
+R12
+Etwo_bit_equal_port
+Z50 w1423431447
+R1
+R2
+R3
+Z51 8C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator_port.vhdl
+Z52 FC:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator_port.vhdl
+l0
+L4
+V<[hDLbM5GCi;6>W1:j6JD0
+!s100 G07jziFiT`69R14LZ8j4n3
+R6
+32
+Z53 !s110 1424232656
+!i10b 1
+Z54 !s108 1424232656.718000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator_port.vhdl|
+Z56 !s107 C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator/2-bit_comparator_port.vhdl|
+!i113 1
+R11
+R12
+Aarch
+R1
+R2
+DEx4 work 18 two_bit_equal_port 0 22 <[hDLbM5GCi;6>W1:j6JD0
+l21
+L10
+Vmn4W[ke_NSQ?0=LRE[j6K1
+!s100 C=d168W]KNNZ86h5=3SNW0
+R6
+32
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 1
+R11
+R12

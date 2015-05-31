@@ -1,0 +1,186 @@
+-- XOR gate
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity xorGate is	
+   port( a, b : in std_logic;
+            f : out std_logic);
+end xorGate;
+--
+architecture ARCH of xorGate is 
+begin
+   f <= a xor b; 
+end ARCH;
+
+-- FULL BIT ADDER
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity full_adder is
+   port( x, y, cin : in std_logic;
+         sum, cout : out std_logic);
+end full_adder;
+
+architecture ARCH of full_adder is
+begin
+   sum <= (x xor y) xor cin;
+   cout <= (x and (y or cin)) or (cin and y);
+end ARCH;
+
+-- SIGN EXTENSION
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_ARITH.all;
+use ieee.std_logic_unsigned.all;
+
+entity ext is
+   port( a, b         : in std_logic;
+         newA, newB : out std_logic);
+end ext;
+
+architecture ARCH of ext is
+begin
+   newA <= a;  
+   newB <= b;  
+end ARCH;
+
+-- SEVEN SEGMENT HEX CONVERTER
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_ARITH.all;
+use ieee.std_logic_unsigned.all;
+
+entity convert is
+   port( X         : in std_logic_vector(3 downto 0);
+         Y         : out std_logic_vector(6 downto 0));
+end convert;
+
+architecture ARCH of convert is
+begin
+  process(X)
+    begin
+      case X is
+        -- 0 = on, 1 = off
+        when "0000" => Y <= "1000000";		-- 0
+        when "0001" => Y <= "1111001";		-- 1
+        when "0010" => Y <= "0100100";		-- 2
+        when "0011" => Y <= "0110000";		-- 3
+        when "0100" => Y <= "0011001";		-- 4
+        when "0101" => Y <= "0010010";		-- 5
+        when "0110" => Y <= "0000010";		-- 6
+        when "0111" => Y <= "1111000";		-- 7
+        when "1000" => Y <= "0000000";		-- 8
+        when "1001" => Y <= "0011000";		-- 9
+        when "1010" => Y <= "0001000";		-- A
+        when "1011" => Y <= "0000011";		-- B
+        when "1100" => Y <= "1000110";		-- C
+        when "1101" => Y <= "0100001";		-- D
+        when "1110" => Y <= "0000110";		-- E
+        when "1111" => Y <= "0001110";		-- F
+      end case;
+  end process;
+
+end ARCH;
+
+-- 16-bit Adder/Subtractor
+library ieee;
+use ieee.std_logic_1164.all;
+use ieee.std_logic_ARITH.all;
+use ieee.std_logic_unsigned.all;
+
+entity addsub16 is 
+   port( mode                : in std_logic;
+	  A		                 : in std_logic_vector(7 downto 0);
+	  B		                 : in std_logic_vector(7 downto 0);
+	  S		                 : buffer std_logic_vector(15 downto 0);
+      cout, overflow         : out std_logic;
+      HEX0, HEX1, HEX2, HEX3 : out std_logic_vector(6 downto 0));
+end addsub16;
+
+architecture struct of addsub16 is
+
+   component xorGate is             --XOR component
+       port( a, b : in std_logic;
+                f : out std_logic);
+   end component;
+
+   component full_adder is	         --FULL ADDER component
+      port( x, y, cin : in std_logic;
+            sum, cout : out std_logic);
+   end component;
+   
+   component ext is                   -- SIGN EXTENSION component
+	   port( a, b         : in std_logic;
+         newA, newB     : out std_logic);
+   end component;
+   
+   component convert is               -- HEX_CONVERTER component
+       port(X : in std_logic_vector(3 downto 0);
+            Y : out std_logic_vector(6 downto 0));
+   end component;
+
+   signal C	:std_logic_vector(15 downto 0);		-- intermediate carries
+   signal X	: std_logic_vector(15 downto 0);	-- xor outputs
+   signal newA, newB : std_logic_vector(15 downto 0);		-- extended bits
+  
+begin
+   extend0: ext port map(A(0), B(0), newA(0), newB(0));
+   extend1: ext port map(A(1), B(1), newA(1), newB(1));
+   extend2: ext port map(A(2), B(2), newA(2), newB(2));
+   extend3: ext port map(A(3), B(3), newA(3), newB(3));
+   extend4: ext port map(A(4), B(4), newA(4), newB(4));
+   extend5: ext port map(A(5), B(5), newA(5), newB(5));
+   extend6: ext port map(A(6), B(6), newA(6), newB(6));
+   extend7: ext port map(A(7), B(7), newA(7), newB(7));
+   extend8: ext port map(A(7), B(7), newA(8), newB(8));
+   extend9: ext port map(A(7), B(7), newA(9), newB(9));
+   extend10: ext port map(A(7), B(7), newA(10), newB(10));
+   extend11: ext port map(A(7), B(7), newA(11), newB(11));
+   extend12: ext port map(A(7), B(7), newA(12), newB(12));
+   extend13: ext port map(A(7), B(7), newA(13), newB(13));
+   extend14: ext port map(A(7), B(7), newA(14), newB(14));
+   extend15: ext port map(A(7), B(7), newA(15), newB(15));
+   
+   GX0: xorGate port map(mode, newB(0), X(0)); 
+   GX1: xorGate port map(mode, newB(1), X(1)); 
+   GX2: xorGate port map(mode, newB(2), X(2)); 
+   GX3: xorGate port map(mode, newB(3), X(3));
+   GX4: xorGate port map(mode, newB(4), X(4)); 
+   GX5: xorGate port map(mode, newB(5), X(5));
+   GX6: xorGate port map(mode, newB(6), X(6)); 
+   GX7: xorGate port map(mode, newB(7), X(7)); 
+   GX8: xorGate port map(mode, newB(8), X(8)); 
+   GX9: xorGate port map(mode, newB(9), X(9)); 
+   GX10: xorGate port map(mode, newB(10), X(10)); 
+   GX11: xorGate port map(mode, newB(11), X(11)); 
+   GX12: xorGate port map(mode, newB(12), X(12)); 
+   GX13: xorGate port map(mode, newB(13), X(13));
+   GX14: xorGate port map(mode, newB(14), X(14)); 
+   GX15: xorGate port map(mode, newB(15), X(15));   
+
+   FA0: full_adder port map(newA(0), X(0), mode,  S(0), C(0));
+   FA1: full_adder port map(newA(1), X(1), C(0),  S(1), C(1));
+   FA2: full_adder port map(newA(2), X(2), C(1),  S(2), C(2));
+   FA3: full_adder port map(newA(3), X(3), C(2),  S(3), C(3));
+   FA4: full_adder port map(newA(4), X(4), C(3),  S(4), C(4));
+   FA5: full_adder port map(newA(5), X(5), C(4),  S(5), C(5));
+   FA6: full_adder port map(newA(6), X(6), C(5),  S(6), C(6));
+   FA7: full_adder port map(newA(7), X(7), C(6),  S(7), C(7));
+   FA8: full_adder port map(newA(8), X(8), C(7),  S(8), C(8));
+   FA9: full_adder port map(newA(9), X(9), C(8),  S(9), C(9));
+   FA10: full_adder port map(newA(10), X(10), C(9),  S(10), C(10));
+   FA11: full_adder port map(newA(11), X(11), C(10),  S(11), C(11));
+   FA12: full_adder port map(newA(12), X(12), C(11),  S(12), C(12));
+   FA13: full_adder port map(newA(13), X(13), C(12),  S(13), C(13));
+   FA14: full_adder port map(newA(14), X(14), C(13),  S(14), C(14));
+   FA15: full_adder port map(newA(15), X(15), C(14),  S(15), C(15));
+   
+   overflow_out: xorGate port map(C(14), C(15), overflow);                
+   cout <= C(15); 
+   
+   DISPLAY0: convert port map(S(3)&S(2)&S(1)&S(0), HEX0);   
+   DISPLAY1: convert port map(S(7)&S(6)&S(5)&S(4), HEX1);
+   DISPLAY2: convert port map(S(11)&S(10)&S(9)&S(8), HEX2);   
+   DISPLAY3: convert port map(S(15)&S(14)&S(13)&S(12), HEX3);
+                                            
+end struct;

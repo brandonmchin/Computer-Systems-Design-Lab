@@ -1,0 +1,28 @@
+to, location
+
+DataIn[0], PIN_N25
+DataIn[1], PIN_N26
+DataIn[2], PIN_P25
+DataIn[3], PIN_AE14
+
+Address[0], PIN_AF14
+Address[1], PIN_AD13
+Address[2], PIN_AC13
+Address[3], PIN_C13
+
+OE, PIN_V1
+WE, PIN_U4
+CS, PIN_V2
+
+DataOut[0], PIN_AE23
+DataOut[1], PIN_AF23
+DataOut[2], PIN_AB21
+DataOut[3], PIN_AC22
+
+Hex[6], PIN_AF10
+Hex[5], PIN_AB12
+Hex[4], PIN_AC12
+Hex[3], PIN_AD11
+Hex[2], PIN_AE11
+Hex[1], PIN_V14
+Hex[0], PIN_V13

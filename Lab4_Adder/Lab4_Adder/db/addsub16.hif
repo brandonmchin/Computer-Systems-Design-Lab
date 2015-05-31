@@ -1,0 +1,247 @@
+Quartus II
+Version 9.1 Build 304 01/25/2010 Service Pack 1 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+addsub16
+# storage
+db|addsub16.(0).cnf
+db|addsub16.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+addsub16.vhdl
+9220ceb57f6d77e370282f1d20c649
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+ext
+# storage
+db|addsub16.(1).cnf
+db|addsub16.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+addsub16.vhdl
+9220ceb57f6d77e370282f1d20c649
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+ext:extend0
+ext:extend1
+ext:extend2
+ext:extend3
+ext:extend4
+ext:extend5
+ext:extend6
+ext:extend7
+ext:extend8
+ext:extend9
+ext:extend10
+ext:extend11
+ext:extend12
+ext:extend13
+ext:extend14
+ext:extend15
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+xorGate
+# storage
+db|addsub16.(2).cnf
+db|addsub16.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+addsub16.vhdl
+9220ceb57f6d77e370282f1d20c649
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+xorGate:GX0
+xorGate:GX1
+xorGate:GX2
+xorGate:GX3
+xorGate:GX4
+xorGate:GX5
+xorGate:GX6
+xorGate:GX7
+xorGate:GX8
+xorGate:GX9
+xorGate:GX10
+xorGate:GX11
+xorGate:GX12
+xorGate:GX13
+xorGate:GX14
+xorGate:GX15
+xorGate:overflow_out
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+full_adder
+# storage
+db|addsub16.(3).cnf
+db|addsub16.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+addsub16.vhdl
+9220ceb57f6d77e370282f1d20c649
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+full_adder:FA0
+full_adder:FA1
+full_adder:FA2
+full_adder:FA3
+full_adder:FA4
+full_adder:FA5
+full_adder:FA6
+full_adder:FA7
+full_adder:FA8
+full_adder:FA9
+full_adder:FA10
+full_adder:FA11
+full_adder:FA12
+full_adder:FA13
+full_adder:FA14
+full_adder:FA15
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+convert
+# storage
+db|addsub16.(4).cnf
+db|addsub16.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+addsub16.vhdl
+9220ceb57f6d77e370282f1d20c649
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(x)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(y)
+6 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+convert:DISPLAY0
+convert:DISPLAY1
+convert:DISPLAY2
+convert:DISPLAY3
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+

@@ -1,0 +1,1642 @@
+Quartus II
+Version 9.1 Build 304 01/25/2010 Service Pack 1 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+D_Latch
+# storage
+db|SingleCycleCPU.(0).cnf
+db|SingleCycleCPU.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+d_latch.vhd
+c14139ed4eb6ec60156b0e02b601316
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+sram_chip:inst1|sram_register:inst|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst6|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst6|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst1|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst1|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst7|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst7|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst2|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst2|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst8|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst8|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst3|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst3|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst9|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst9|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst10|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst10|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst11|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst11|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst12|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst12|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst13|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst13|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst14|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst14|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst15|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst15|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst16|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst16|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell0|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell1|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell2|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell3|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell4|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell5|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell6|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell7|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell8|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell9|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell10|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell11|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell12|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell13|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell14|Master_Slave_DFF:cell|D_Latch:Slave
+sram_chip:inst1|sram_register:inst17|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Master
+sram_chip:inst1|sram_register:inst17|sram_cell:cell15|Master_Slave_DFF:cell|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst4|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst4|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst8|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst8|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst12|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst12|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst1|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst1|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst5|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst5|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst9|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst9|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst13|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst13|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst2|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst2|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst6|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst6|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst10|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst10|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst14|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst14|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst3|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst3|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst7|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst7|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst11|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst11|D_Latch:Slave
+instruction_register:inst8|instruct_MSDFF:inst15|D_Latch:Master
+instruction_register:inst8|instruct_MSDFF:inst15|D_Latch:Slave
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+Master_Slave_DFF
+# storage
+db|SingleCycleCPU.(1).cnf
+db|SingleCycleCPU.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+master_slave_dff.vhd
+6d731c6154f7166d683c8fd4159bb1ce
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+sram_chip:inst1|sram_register:inst|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst6|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst1|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst7|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst2|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst8|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst3|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst9|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst10|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst11|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst12|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst13|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst14|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst15|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst16|sram_cell:cell15|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell0|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell1|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell2|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell3|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell4|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell5|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell6|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell7|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell8|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell9|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell10|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell11|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell12|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell13|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell14|Master_Slave_DFF:cell
+sram_chip:inst1|sram_register:inst17|sram_cell:cell15|Master_Slave_DFF:cell
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+sram_cell
+# storage
+db|SingleCycleCPU.(2).cnf
+db|SingleCycleCPU.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sram_cell.vhd
+42e1786286dd3b1fd073786533ac38b3
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+sram_chip:inst1|sram_register:inst|sram_cell:cell0
+sram_chip:inst1|sram_register:inst|sram_cell:cell1
+sram_chip:inst1|sram_register:inst|sram_cell:cell2
+sram_chip:inst1|sram_register:inst|sram_cell:cell3
+sram_chip:inst1|sram_register:inst|sram_cell:cell4
+sram_chip:inst1|sram_register:inst|sram_cell:cell5
+sram_chip:inst1|sram_register:inst|sram_cell:cell6
+sram_chip:inst1|sram_register:inst|sram_cell:cell7
+sram_chip:inst1|sram_register:inst|sram_cell:cell8
+sram_chip:inst1|sram_register:inst|sram_cell:cell9
+sram_chip:inst1|sram_register:inst|sram_cell:cell10
+sram_chip:inst1|sram_register:inst|sram_cell:cell11
+sram_chip:inst1|sram_register:inst|sram_cell:cell12
+sram_chip:inst1|sram_register:inst|sram_cell:cell13
+sram_chip:inst1|sram_register:inst|sram_cell:cell14
+sram_chip:inst1|sram_register:inst|sram_cell:cell15
+sram_chip:inst1|sram_register:inst6|sram_cell:cell0
+sram_chip:inst1|sram_register:inst6|sram_cell:cell1
+sram_chip:inst1|sram_register:inst6|sram_cell:cell2
+sram_chip:inst1|sram_register:inst6|sram_cell:cell3
+sram_chip:inst1|sram_register:inst6|sram_cell:cell4
+sram_chip:inst1|sram_register:inst6|sram_cell:cell5
+sram_chip:inst1|sram_register:inst6|sram_cell:cell6
+sram_chip:inst1|sram_register:inst6|sram_cell:cell7
+sram_chip:inst1|sram_register:inst6|sram_cell:cell8
+sram_chip:inst1|sram_register:inst6|sram_cell:cell9
+sram_chip:inst1|sram_register:inst6|sram_cell:cell10
+sram_chip:inst1|sram_register:inst6|sram_cell:cell11
+sram_chip:inst1|sram_register:inst6|sram_cell:cell12
+sram_chip:inst1|sram_register:inst6|sram_cell:cell13
+sram_chip:inst1|sram_register:inst6|sram_cell:cell14
+sram_chip:inst1|sram_register:inst6|sram_cell:cell15
+sram_chip:inst1|sram_register:inst1|sram_cell:cell0
+sram_chip:inst1|sram_register:inst1|sram_cell:cell1
+sram_chip:inst1|sram_register:inst1|sram_cell:cell2
+sram_chip:inst1|sram_register:inst1|sram_cell:cell3
+sram_chip:inst1|sram_register:inst1|sram_cell:cell4
+sram_chip:inst1|sram_register:inst1|sram_cell:cell5
+sram_chip:inst1|sram_register:inst1|sram_cell:cell6
+sram_chip:inst1|sram_register:inst1|sram_cell:cell7
+sram_chip:inst1|sram_register:inst1|sram_cell:cell8
+sram_chip:inst1|sram_register:inst1|sram_cell:cell9
+sram_chip:inst1|sram_register:inst1|sram_cell:cell10
+sram_chip:inst1|sram_register:inst1|sram_cell:cell11
+sram_chip:inst1|sram_register:inst1|sram_cell:cell12
+sram_chip:inst1|sram_register:inst1|sram_cell:cell13
+sram_chip:inst1|sram_register:inst1|sram_cell:cell14
+sram_chip:inst1|sram_register:inst1|sram_cell:cell15
+sram_chip:inst1|sram_register:inst7|sram_cell:cell0
+sram_chip:inst1|sram_register:inst7|sram_cell:cell1
+sram_chip:inst1|sram_register:inst7|sram_cell:cell2
+sram_chip:inst1|sram_register:inst7|sram_cell:cell3
+sram_chip:inst1|sram_register:inst7|sram_cell:cell4
+sram_chip:inst1|sram_register:inst7|sram_cell:cell5
+sram_chip:inst1|sram_register:inst7|sram_cell:cell6
+sram_chip:inst1|sram_register:inst7|sram_cell:cell7
+sram_chip:inst1|sram_register:inst7|sram_cell:cell8
+sram_chip:inst1|sram_register:inst7|sram_cell:cell9
+sram_chip:inst1|sram_register:inst7|sram_cell:cell10
+sram_chip:inst1|sram_register:inst7|sram_cell:cell11
+sram_chip:inst1|sram_register:inst7|sram_cell:cell12
+sram_chip:inst1|sram_register:inst7|sram_cell:cell13
+sram_chip:inst1|sram_register:inst7|sram_cell:cell14
+sram_chip:inst1|sram_register:inst7|sram_cell:cell15
+sram_chip:inst1|sram_register:inst2|sram_cell:cell0
+sram_chip:inst1|sram_register:inst2|sram_cell:cell1
+sram_chip:inst1|sram_register:inst2|sram_cell:cell2
+sram_chip:inst1|sram_register:inst2|sram_cell:cell3
+sram_chip:inst1|sram_register:inst2|sram_cell:cell4
+sram_chip:inst1|sram_register:inst2|sram_cell:cell5
+sram_chip:inst1|sram_register:inst2|sram_cell:cell6
+sram_chip:inst1|sram_register:inst2|sram_cell:cell7
+sram_chip:inst1|sram_register:inst2|sram_cell:cell8
+sram_chip:inst1|sram_register:inst2|sram_cell:cell9
+sram_chip:inst1|sram_register:inst2|sram_cell:cell10
+sram_chip:inst1|sram_register:inst2|sram_cell:cell11
+sram_chip:inst1|sram_register:inst2|sram_cell:cell12
+sram_chip:inst1|sram_register:inst2|sram_cell:cell13
+sram_chip:inst1|sram_register:inst2|sram_cell:cell14
+sram_chip:inst1|sram_register:inst2|sram_cell:cell15
+sram_chip:inst1|sram_register:inst8|sram_cell:cell0
+sram_chip:inst1|sram_register:inst8|sram_cell:cell1
+sram_chip:inst1|sram_register:inst8|sram_cell:cell2
+sram_chip:inst1|sram_register:inst8|sram_cell:cell3
+sram_chip:inst1|sram_register:inst8|sram_cell:cell4
+sram_chip:inst1|sram_register:inst8|sram_cell:cell5
+sram_chip:inst1|sram_register:inst8|sram_cell:cell6
+sram_chip:inst1|sram_register:inst8|sram_cell:cell7
+sram_chip:inst1|sram_register:inst8|sram_cell:cell8
+sram_chip:inst1|sram_register:inst8|sram_cell:cell9
+sram_chip:inst1|sram_register:inst8|sram_cell:cell10
+sram_chip:inst1|sram_register:inst8|sram_cell:cell11
+sram_chip:inst1|sram_register:inst8|sram_cell:cell12
+sram_chip:inst1|sram_register:inst8|sram_cell:cell13
+sram_chip:inst1|sram_register:inst8|sram_cell:cell14
+sram_chip:inst1|sram_register:inst8|sram_cell:cell15
+sram_chip:inst1|sram_register:inst3|sram_cell:cell0
+sram_chip:inst1|sram_register:inst3|sram_cell:cell1
+sram_chip:inst1|sram_register:inst3|sram_cell:cell2
+sram_chip:inst1|sram_register:inst3|sram_cell:cell3
+sram_chip:inst1|sram_register:inst3|sram_cell:cell4
+sram_chip:inst1|sram_register:inst3|sram_cell:cell5
+sram_chip:inst1|sram_register:inst3|sram_cell:cell6
+sram_chip:inst1|sram_register:inst3|sram_cell:cell7
+sram_chip:inst1|sram_register:inst3|sram_cell:cell8
+sram_chip:inst1|sram_register:inst3|sram_cell:cell9
+sram_chip:inst1|sram_register:inst3|sram_cell:cell10
+sram_chip:inst1|sram_register:inst3|sram_cell:cell11
+sram_chip:inst1|sram_register:inst3|sram_cell:cell12
+sram_chip:inst1|sram_register:inst3|sram_cell:cell13
+sram_chip:inst1|sram_register:inst3|sram_cell:cell14
+sram_chip:inst1|sram_register:inst3|sram_cell:cell15
+sram_chip:inst1|sram_register:inst9|sram_cell:cell0
+sram_chip:inst1|sram_register:inst9|sram_cell:cell1
+sram_chip:inst1|sram_register:inst9|sram_cell:cell2
+sram_chip:inst1|sram_register:inst9|sram_cell:cell3
+sram_chip:inst1|sram_register:inst9|sram_cell:cell4
+sram_chip:inst1|sram_register:inst9|sram_cell:cell5
+sram_chip:inst1|sram_register:inst9|sram_cell:cell6
+sram_chip:inst1|sram_register:inst9|sram_cell:cell7
+sram_chip:inst1|sram_register:inst9|sram_cell:cell8
+sram_chip:inst1|sram_register:inst9|sram_cell:cell9
+sram_chip:inst1|sram_register:inst9|sram_cell:cell10
+sram_chip:inst1|sram_register:inst9|sram_cell:cell11
+sram_chip:inst1|sram_register:inst9|sram_cell:cell12
+sram_chip:inst1|sram_register:inst9|sram_cell:cell13
+sram_chip:inst1|sram_register:inst9|sram_cell:cell14
+sram_chip:inst1|sram_register:inst9|sram_cell:cell15
+sram_chip:inst1|sram_register:inst10|sram_cell:cell0
+sram_chip:inst1|sram_register:inst10|sram_cell:cell1
+sram_chip:inst1|sram_register:inst10|sram_cell:cell2
+sram_chip:inst1|sram_register:inst10|sram_cell:cell3
+sram_chip:inst1|sram_register:inst10|sram_cell:cell4
+sram_chip:inst1|sram_register:inst10|sram_cell:cell5
+sram_chip:inst1|sram_register:inst10|sram_cell:cell6
+sram_chip:inst1|sram_register:inst10|sram_cell:cell7
+sram_chip:inst1|sram_register:inst10|sram_cell:cell8
+sram_chip:inst1|sram_register:inst10|sram_cell:cell9
+sram_chip:inst1|sram_register:inst10|sram_cell:cell10
+sram_chip:inst1|sram_register:inst10|sram_cell:cell11
+sram_chip:inst1|sram_register:inst10|sram_cell:cell12
+sram_chip:inst1|sram_register:inst10|sram_cell:cell13
+sram_chip:inst1|sram_register:inst10|sram_cell:cell14
+sram_chip:inst1|sram_register:inst10|sram_cell:cell15
+sram_chip:inst1|sram_register:inst11|sram_cell:cell0
+sram_chip:inst1|sram_register:inst11|sram_cell:cell1
+sram_chip:inst1|sram_register:inst11|sram_cell:cell2
+sram_chip:inst1|sram_register:inst11|sram_cell:cell3
+sram_chip:inst1|sram_register:inst11|sram_cell:cell4
+sram_chip:inst1|sram_register:inst11|sram_cell:cell5
+sram_chip:inst1|sram_register:inst11|sram_cell:cell6
+sram_chip:inst1|sram_register:inst11|sram_cell:cell7
+sram_chip:inst1|sram_register:inst11|sram_cell:cell8
+sram_chip:inst1|sram_register:inst11|sram_cell:cell9
+sram_chip:inst1|sram_register:inst11|sram_cell:cell10
+sram_chip:inst1|sram_register:inst11|sram_cell:cell11
+sram_chip:inst1|sram_register:inst11|sram_cell:cell12
+sram_chip:inst1|sram_register:inst11|sram_cell:cell13
+sram_chip:inst1|sram_register:inst11|sram_cell:cell14
+sram_chip:inst1|sram_register:inst11|sram_cell:cell15
+sram_chip:inst1|sram_register:inst12|sram_cell:cell0
+sram_chip:inst1|sram_register:inst12|sram_cell:cell1
+sram_chip:inst1|sram_register:inst12|sram_cell:cell2
+sram_chip:inst1|sram_register:inst12|sram_cell:cell3
+sram_chip:inst1|sram_register:inst12|sram_cell:cell4
+sram_chip:inst1|sram_register:inst12|sram_cell:cell5
+sram_chip:inst1|sram_register:inst12|sram_cell:cell6
+sram_chip:inst1|sram_register:inst12|sram_cell:cell7
+sram_chip:inst1|sram_register:inst12|sram_cell:cell8
+sram_chip:inst1|sram_register:inst12|sram_cell:cell9
+sram_chip:inst1|sram_register:inst12|sram_cell:cell10
+sram_chip:inst1|sram_register:inst12|sram_cell:cell11
+sram_chip:inst1|sram_register:inst12|sram_cell:cell12
+sram_chip:inst1|sram_register:inst12|sram_cell:cell13
+sram_chip:inst1|sram_register:inst12|sram_cell:cell14
+sram_chip:inst1|sram_register:inst12|sram_cell:cell15
+sram_chip:inst1|sram_register:inst13|sram_cell:cell0
+sram_chip:inst1|sram_register:inst13|sram_cell:cell1
+sram_chip:inst1|sram_register:inst13|sram_cell:cell2
+sram_chip:inst1|sram_register:inst13|sram_cell:cell3
+sram_chip:inst1|sram_register:inst13|sram_cell:cell4
+sram_chip:inst1|sram_register:inst13|sram_cell:cell5
+sram_chip:inst1|sram_register:inst13|sram_cell:cell6
+sram_chip:inst1|sram_register:inst13|sram_cell:cell7
+sram_chip:inst1|sram_register:inst13|sram_cell:cell8
+sram_chip:inst1|sram_register:inst13|sram_cell:cell9
+sram_chip:inst1|sram_register:inst13|sram_cell:cell10
+sram_chip:inst1|sram_register:inst13|sram_cell:cell11
+sram_chip:inst1|sram_register:inst13|sram_cell:cell12
+sram_chip:inst1|sram_register:inst13|sram_cell:cell13
+sram_chip:inst1|sram_register:inst13|sram_cell:cell14
+sram_chip:inst1|sram_register:inst13|sram_cell:cell15
+sram_chip:inst1|sram_register:inst14|sram_cell:cell0
+sram_chip:inst1|sram_register:inst14|sram_cell:cell1
+sram_chip:inst1|sram_register:inst14|sram_cell:cell2
+sram_chip:inst1|sram_register:inst14|sram_cell:cell3
+sram_chip:inst1|sram_register:inst14|sram_cell:cell4
+sram_chip:inst1|sram_register:inst14|sram_cell:cell5
+sram_chip:inst1|sram_register:inst14|sram_cell:cell6
+sram_chip:inst1|sram_register:inst14|sram_cell:cell7
+sram_chip:inst1|sram_register:inst14|sram_cell:cell8
+sram_chip:inst1|sram_register:inst14|sram_cell:cell9
+sram_chip:inst1|sram_register:inst14|sram_cell:cell10
+sram_chip:inst1|sram_register:inst14|sram_cell:cell11
+sram_chip:inst1|sram_register:inst14|sram_cell:cell12
+sram_chip:inst1|sram_register:inst14|sram_cell:cell13
+sram_chip:inst1|sram_register:inst14|sram_cell:cell14
+sram_chip:inst1|sram_register:inst14|sram_cell:cell15
+sram_chip:inst1|sram_register:inst15|sram_cell:cell0
+sram_chip:inst1|sram_register:inst15|sram_cell:cell1
+sram_chip:inst1|sram_register:inst15|sram_cell:cell2
+sram_chip:inst1|sram_register:inst15|sram_cell:cell3
+sram_chip:inst1|sram_register:inst15|sram_cell:cell4
+sram_chip:inst1|sram_register:inst15|sram_cell:cell5
+sram_chip:inst1|sram_register:inst15|sram_cell:cell6
+sram_chip:inst1|sram_register:inst15|sram_cell:cell7
+sram_chip:inst1|sram_register:inst15|sram_cell:cell8
+sram_chip:inst1|sram_register:inst15|sram_cell:cell9
+sram_chip:inst1|sram_register:inst15|sram_cell:cell10
+sram_chip:inst1|sram_register:inst15|sram_cell:cell11
+sram_chip:inst1|sram_register:inst15|sram_cell:cell12
+sram_chip:inst1|sram_register:inst15|sram_cell:cell13
+sram_chip:inst1|sram_register:inst15|sram_cell:cell14
+sram_chip:inst1|sram_register:inst15|sram_cell:cell15
+sram_chip:inst1|sram_register:inst16|sram_cell:cell0
+sram_chip:inst1|sram_register:inst16|sram_cell:cell1
+sram_chip:inst1|sram_register:inst16|sram_cell:cell2
+sram_chip:inst1|sram_register:inst16|sram_cell:cell3
+sram_chip:inst1|sram_register:inst16|sram_cell:cell4
+sram_chip:inst1|sram_register:inst16|sram_cell:cell5
+sram_chip:inst1|sram_register:inst16|sram_cell:cell6
+sram_chip:inst1|sram_register:inst16|sram_cell:cell7
+sram_chip:inst1|sram_register:inst16|sram_cell:cell8
+sram_chip:inst1|sram_register:inst16|sram_cell:cell9
+sram_chip:inst1|sram_register:inst16|sram_cell:cell10
+sram_chip:inst1|sram_register:inst16|sram_cell:cell11
+sram_chip:inst1|sram_register:inst16|sram_cell:cell12
+sram_chip:inst1|sram_register:inst16|sram_cell:cell13
+sram_chip:inst1|sram_register:inst16|sram_cell:cell14
+sram_chip:inst1|sram_register:inst16|sram_cell:cell15
+sram_chip:inst1|sram_register:inst17|sram_cell:cell0
+sram_chip:inst1|sram_register:inst17|sram_cell:cell1
+sram_chip:inst1|sram_register:inst17|sram_cell:cell2
+sram_chip:inst1|sram_register:inst17|sram_cell:cell3
+sram_chip:inst1|sram_register:inst17|sram_cell:cell4
+sram_chip:inst1|sram_register:inst17|sram_cell:cell5
+sram_chip:inst1|sram_register:inst17|sram_cell:cell6
+sram_chip:inst1|sram_register:inst17|sram_cell:cell7
+sram_chip:inst1|sram_register:inst17|sram_cell:cell8
+sram_chip:inst1|sram_register:inst17|sram_cell:cell9
+sram_chip:inst1|sram_register:inst17|sram_cell:cell10
+sram_chip:inst1|sram_register:inst17|sram_cell:cell11
+sram_chip:inst1|sram_register:inst17|sram_cell:cell12
+sram_chip:inst1|sram_register:inst17|sram_cell:cell13
+sram_chip:inst1|sram_register:inst17|sram_cell:cell14
+sram_chip:inst1|sram_register:inst17|sram_cell:cell15
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+sram_register
+# storage
+db|SingleCycleCPU.(3).cnf
+db|SingleCycleCPU.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sram_register.vhd
+8d1fb4a82fdf0a0806cb0baf168ab41
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+sram_chip:inst1|sram_register:inst
+sram_chip:inst1|sram_register:inst6
+sram_chip:inst1|sram_register:inst1
+sram_chip:inst1|sram_register:inst7
+sram_chip:inst1|sram_register:inst2
+sram_chip:inst1|sram_register:inst8
+sram_chip:inst1|sram_register:inst3
+sram_chip:inst1|sram_register:inst9
+sram_chip:inst1|sram_register:inst10
+sram_chip:inst1|sram_register:inst11
+sram_chip:inst1|sram_register:inst12
+sram_chip:inst1|sram_register:inst13
+sram_chip:inst1|sram_register:inst14
+sram_chip:inst1|sram_register:inst15
+sram_chip:inst1|sram_register:inst16
+sram_chip:inst1|sram_register:inst17
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+decode4to16
+# storage
+db|SingleCycleCPU.(4).cnf
+db|SingleCycleCPU.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+decode4to16.vhd
+1649d8dec75d5d25a631d1456c08aa
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+decode4to16:inst3
+decode4to16:inst4
+decode4to16:inst5
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+sram_chip
+# storage
+db|SingleCycleCPU.(5).cnf
+db|SingleCycleCPU.(5).cnf
+# case_insensitive
+# source_file
+sram_chip.bdf
+90439c3f9b7619de52cacb1250e73a36
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+sram_chip:inst1
+}
+# macro_sequence
+
+# end
+# entity
+sign_ext
+# storage
+db|SingleCycleCPU.(6).cnf
+db|SingleCycleCPU.(6).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sign_ext.vhd
+d29783633ceeab5f54a4984d051f1d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+sign_ext:inst2
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+converter
+# storage
+db|SingleCycleCPU.(7).cnf
+db|SingleCycleCPU.(7).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+sign_ext.vhd
+d29783633ceeab5f54a4984d051f1d
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+sign_ext:inst2|converter:extend0
+sign_ext:inst2|converter:extend1
+sign_ext:inst2|converter:extend2
+sign_ext:inst2|converter:extend3
+sign_ext:inst2|converter:extend4
+sign_ext:inst2|converter:extend5
+sign_ext:inst2|converter:extend6
+sign_ext:inst2|converter:extend7
+sign_ext:inst2|converter:extend8
+sign_ext:inst2|converter:extend9
+sign_ext:inst2|converter:extend10
+sign_ext:inst2|converter:extend11
+sign_ext:inst2|converter:extend12
+sign_ext:inst2|converter:extend13
+sign_ext:inst2|converter:extend14
+sign_ext:inst2|converter:extend15
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+mux16
+# storage
+db|SingleCycleCPU.(8).cnf
+db|SingleCycleCPU.(8).cnf
+# case_insensitive
+# source_file
+mux16.bdf
+8489cd9187525cad2a7f1f6f3bdc86
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+mux16:inst7
+}
+# macro_sequence
+
+# end
+# entity
+addsub16
+# storage
+db|SingleCycleCPU.(9).cnf
+db|SingleCycleCPU.(9).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+addsub16.vhd
+af92c94b1e8074dc4da84697c810
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+addsub16:inst
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+xorGate
+# storage
+db|SingleCycleCPU.(10).cnf
+db|SingleCycleCPU.(10).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+addsub16.vhd
+af92c94b1e8074dc4da84697c810
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+addsub16:inst|xorGate:GX0
+addsub16:inst|xorGate:GX1
+addsub16:inst|xorGate:GX2
+addsub16:inst|xorGate:GX3
+addsub16:inst|xorGate:GX4
+addsub16:inst|xorGate:GX5
+addsub16:inst|xorGate:GX6
+addsub16:inst|xorGate:GX7
+addsub16:inst|xorGate:GX8
+addsub16:inst|xorGate:GX9
+addsub16:inst|xorGate:GX10
+addsub16:inst|xorGate:GX11
+addsub16:inst|xorGate:GX12
+addsub16:inst|xorGate:GX13
+addsub16:inst|xorGate:GX14
+addsub16:inst|xorGate:GX15
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+full_adder
+# storage
+db|SingleCycleCPU.(11).cnf
+db|SingleCycleCPU.(11).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+addsub16.vhd
+af92c94b1e8074dc4da84697c810
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+addsub16:inst|full_adder:FA0
+addsub16:inst|full_adder:FA1
+addsub16:inst|full_adder:FA2
+addsub16:inst|full_adder:FA3
+addsub16:inst|full_adder:FA4
+addsub16:inst|full_adder:FA5
+addsub16:inst|full_adder:FA6
+addsub16:inst|full_adder:FA7
+addsub16:inst|full_adder:FA8
+addsub16:inst|full_adder:FA9
+addsub16:inst|full_adder:FA10
+addsub16:inst|full_adder:FA11
+addsub16:inst|full_adder:FA12
+addsub16:inst|full_adder:FA13
+addsub16:inst|full_adder:FA14
+addsub16:inst|full_adder:FA15
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+convert
+# storage
+db|SingleCycleCPU.(12).cnf
+db|SingleCycleCPU.(12).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+addsub16.vhd
+af92c94b1e8074dc4da84697c810
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# user_parameter {
+ constraint(x)
+3 downto 0
+PARAMETER_STRING
+USR
+ constraint(y)
+6 downto 0
+PARAMETER_STRING
+USR
+}
+# hierarchies {
+addsub16:inst|convert:DISPLAY0
+addsub16:inst|convert:DISPLAY1
+addsub16:inst|convert:DISPLAY2
+addsub16:inst|convert:DISPLAY3
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+instruct_MSDFF
+# storage
+db|SingleCycleCPU.(14).cnf
+db|SingleCycleCPU.(14).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+instruct_msdff.vhd
+818f2ace482fe58fdbd3344cbe5ce9fa
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+instruction_register:inst8|instruct_MSDFF:inst4
+instruction_register:inst8|instruct_MSDFF:inst
+instruction_register:inst8|instruct_MSDFF:inst8
+instruction_register:inst8|instruct_MSDFF:inst12
+instruction_register:inst8|instruct_MSDFF:inst1
+instruction_register:inst8|instruct_MSDFF:inst5
+instruction_register:inst8|instruct_MSDFF:inst9
+instruction_register:inst8|instruct_MSDFF:inst13
+instruction_register:inst8|instruct_MSDFF:inst2
+instruction_register:inst8|instruct_MSDFF:inst6
+instruction_register:inst8|instruct_MSDFF:inst10
+instruction_register:inst8|instruct_MSDFF:inst14
+instruction_register:inst8|instruct_MSDFF:inst3
+instruction_register:inst8|instruct_MSDFF:inst7
+instruction_register:inst8|instruct_MSDFF:inst11
+instruction_register:inst8|instruct_MSDFF:inst15
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+instruction_register
+# storage
+db|SingleCycleCPU.(13).cnf
+db|SingleCycleCPU.(13).cnf
+# case_insensitive
+# source_file
+instruction_register.bdf
+647f55e3311d1b332b39e219b02d4911
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+instruction_register:inst8
+}
+# macro_sequence
+
+# end
+# entity
+CPU
+# storage
+db|SingleCycleCPU.(15).cnf
+db|SingleCycleCPU.(15).cnf
+# case_insensitive
+# source_file
+cpu.bdf
+27fb8db88437be412bc28e89429dd97
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# complete
+

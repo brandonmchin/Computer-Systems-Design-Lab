@@ -1,0 +1,248 @@
+Quartus II
+Version 9.1 Build 304 01/25/2010 Service Pack 1 SJ Web Edition
+11
+1000
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+shift_detector
+# storage
+db|Keyboard.(0).cnf
+db|Keyboard.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+shift_detector.vhd
+851acc39b909c7374f97d6df49384
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+keyboard_interface:inst|shift_detector:shft
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+dec_7seg_hex
+# storage
+db|Keyboard.(2).cnf
+db|Keyboard.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+dec_7seg_hex.vhd
+7a3d8c8a5e5ecefe9a7bb72b52090b2
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+keyboard_interface:inst|hex_to_seven:sev|dec_7seg_hex:d0
+keyboard_interface:inst|hex_to_seven:sev|dec_7seg_hex:d1
+keyboard_interface:inst|hex_to_seven:sev|dec_7seg_hex:d2
+keyboard_interface:inst|hex_to_seven:sev|dec_7seg_hex:d3
+keyboard_interface:inst|hex_to_seven:sev|dec_7seg_hex:d4
+keyboard_interface:inst|hex_to_seven:sev|dec_7seg_hex:d5
+keyboard_interface:inst|hex_to_seven:sev|dec_7seg_hex:d6
+keyboard_interface:inst|hex_to_seven:sev|dec_7seg_hex:d7
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+hex_to_seven
+# storage
+db|Keyboard.(3).cnf
+db|Keyboard.(3).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+hex_to_seven.vhd
+cd8acda33cdeea66112a6da7c3d7fbbc
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+keyboard_interface:inst|hex_to_seven:sev
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+ps2_rec
+# storage
+db|Keyboard.(4).cnf
+db|Keyboard.(4).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+ps2_rec.vhd
+f17789e6d6a2c5950fb72ec6777901
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+keyboard_interface:inst|ps2_rec:rec
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+keyboard_interface
+# storage
+db|Keyboard.(5).cnf
+db|Keyboard.(5).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+keyboard_interface.vhd
+5e4a93cef8af601363e52d632960809b
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+keyboard_interface:inst
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+keyboard_interfaces
+# storage
+db|Keyboard.(6).cnf
+db|Keyboard.(6).cnf
+# case_insensitive
+# source_file
+keyboard_interfaces.bdf
+da8ec9728ea0fececfe311afc563bda9
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+|
+}
+# macro_sequence
+
+# end
+# entity
+scan_code_to_ascii
+# storage
+db|Keyboard.(1).cnf
+db|Keyboard.(1).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+scan_code_to_ascii.vhd
+a94145dcee1ed5cff1b922ecdf57749b
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+keyboard_interface:inst|scan_code_to_ascii:ascii
+}
+# lmf
+|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+

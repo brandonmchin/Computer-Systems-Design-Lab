@@ -1,0 +1,71 @@
+library ieee;
+use ieee.std_logic_1164.all;
+--
+entity xorGate is	
+   port( A, B : in std_logic;
+            F : out std_logic);
+end xorGate;
+--
+architecture arch of xorGate is 
+begin
+   F <= A xor B; 
+end arch;
+--*============================
+                        -- This is the FULL ADDER
+library ieee;
+use ieee.std_logic_1164.all;
+--
+entity Full_Adder is
+   port( X, Y, Cin : in std_logic;
+         sum, Cout : out std_logic);
+end Full_Adder;
+
+architecture arch of Full_Adder is
+begin
+   sum <= (X xor Y) xor Cin;
+   Cout <= (X and (Y or Cin)) or (Cin and Y);
+end arch;
+--*============================*============================
+
+--Now we build the four bit Adder Subtractor
+library ieee;
+use ieee.std_logic_1164.all;
+
+entity adderSubtractor is 
+   port( mode             : in std_logic;
+          A : in std_logic_vector(3 downto 0);		--A3, A2, A1, A0  : in std_logic;
+          B : in std_logic_vector(3 downto 0);  	--B3, B2, B1, B0  : in std_logic;
+          S : out std_logic_vector(3 downto 0);		--S3, S2, S1, S0  : out std_logic;
+                  Cout, V : out std_logic);
+end adderSubtractor;
+--Structural architecture
+architecture struct of adderSubtractor is
+
+   component xorGate is             --XOR component
+       port( A, B : in std_logic;
+                F : out std_logic);
+   end component;
+
+   component Full_Adder is	         --FULL ADDER component
+      port( X, Y, Cin : in std_logic;
+            sum, Cout : out std_logic);
+   end component;
+
+   --interconnecting wires
+   signal C : std_logic_vector(3 downto 0);		--signal C1, C2, C3, C4: std_logic; --intermediate carries
+   signal X : std_logic_vector(3 downto 0);		--signal xor0, xor1, xor2, xor3 : std_logic; --xor outputs
+
+begin
+   GX0: xorGate port map(mode, B(0), X(0)); 
+   GX1: xorGate port map(mode, B(1), X(1)); 
+   GX2: xorGate port map(mode, B(2), X(2)); 
+   GX3: xorGate port map(mode, B(3), X(3));
+
+   FA0: Full_Adder port map(A(0), X(0), mode,  S(0), C(0));-- S0
+   FA1: Full_Adder port map(A(1), X(1), C(0),  S(1), C(1));  -- S1
+   FA2: Full_Adder port map(A(2), X(2), C(1),  S(2), C(2));  -- S2
+   FA3: Full_Adder port map(A(3), X(3), C(2),  S(3), C(3));  -- S3
+
+   Vout: xorGate port map(C(2), C(3), V);                -- V
+   Cout <= C4;                                       -- Cout
+end struct;

@@ -1,0 +1,549 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/Users/brandon/Documents/Systems Organization/1-bit-adder-test
+Eadd16
+Z0 w1423840000
+Z1 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z2 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z3 dC:/Users/brandon/Documents/Systems Organization/Lab1_Adder
+8C:\Users\brandon\Documents\Systems Organization\Lab1_Adder\16-Bit_Adder.vhdl
+FC:\Users\brandon\Documents\Systems Organization\Lab1_Adder\16-Bit_Adder.vhdl
+l0
+L4
+VBjkdeTUi8PC7ZhCn]2f=20
+!s100 0B@9bC`UJ9=l=XhS=6IYI2
+Z4 OP;C;10.4;61
+32
+!s110 1423840014
+!i10b 1
+!s108 1423840014.600000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:\Users\brandon\Documents\Systems Organization\Lab1_Adder\16-Bit_Adder.vhdl|
+!s107 C:\Users\brandon\Documents\Systems Organization\Lab1_Adder\16-Bit_Adder.vhdl|
+!i113 1
+Z5 o-work work -2002 -explicit -O0
+Z6 tExplicit 1
+Astructure
+R1
+R2
+DEx4 work 5 add16 0 22 TTnUc?K@BDC?OPAY5eTdX1
+l71
+L57
+VhA0<iRe=?hJXFYK^J`V[43
+!s100 aL?ekhajeg6okI:^QYYMW3
+R4
+32
+!s110 1423227196
+!i10b 1
+!s108 1423227196.185000
+!s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/lab1/16_Bit_Adder.vhdl|
+!s107 C:/Users/brandon/Documents/Systems Organization/lab1/16_Bit_Adder.vhdl|
+!i113 1
+R5
+R6
+Z7 dC:/Users/brandon/Documents/Systems Organization/lab1
+FC:/Users/brandon/Documents/Systems Organization/lab1/16_Bit_Adder.vhdl
+8C:/Users/brandon/Documents/Systems Organization/lab1/16_Bit_Adder.vhdl
+Eadd2
+Z8 w1423225162
+R1
+R2
+R3
+Z9 8C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/2_Bit_Adder.vhdl
+Z10 FC:/Users/brandon/Documents/Systems Organization/Lab1_Adder/2_Bit_Adder.vhdl
+l0
+L47
+V3>D5ZbMd5A?1NNEOAY:bC0
+!s100 =?HKJ?N:ga04BbLblOfCC2
+R4
+32
+Z11 !s110 1424420716
+!i10b 1
+Z12 !s108 1424420715.540000
+Z13 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/2_Bit_Adder.vhdl|
+Z14 !s107 C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/2_Bit_Adder.vhdl|
+!i113 1
+R5
+R6
+Astructure
+R1
+R2
+Z15 DEx4 work 4 add2 0 22 3>D5ZbMd5A?1NNEOAY:bC0
+l71
+L57
+V5IZaPJ=d1HIEAgnDk`Sd]0
+!s100 7?eX1_7lCUzK^Wm]S5<[V2
+R4
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R5
+R6
+Eadd4
+Z16 w1423128776
+R1
+R2
+R7
+Z17 8C:/Users/brandon/Documents/Systems Organization/lab1/4_Bit_Adder.vhdl
+Z18 FC:/Users/brandon/Documents/Systems Organization/lab1/4_Bit_Adder.vhdl
+l0
+L48
+VI_Rg54@d]2@II[7`0m`Je2
+!s100 HR2DDMTSl>Z2<g56H8Ef;1
+R4
+32
+Z19 !s110 1423225541
+!i10b 1
+Z20 !s108 1423225541.278000
+Z21 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/lab1/4_Bit_Adder.vhdl|
+Z22 !s107 C:/Users/brandon/Documents/Systems Organization/lab1/4_Bit_Adder.vhdl|
+!i113 1
+R5
+R6
+Astructure
+R1
+R2
+Z23 DEx4 work 4 add4 0 22 I_Rg54@d]2@II[7`0m`Je2
+l72
+L58
+Vn0f`lGCzZ8KUMMY:_iCC;3
+!s100 dH8c^9H7=_i:6`X>z@cU_0
+R4
+32
+R19
+!i10b 1
+R20
+R21
+R22
+!i113 1
+R5
+R6
+Eaddersubtractor
+Z24 w1424417282
+R1
+R2
+R3
+Z25 8C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/16-Bit_Adder.vhdl
+Z26 FC:/Users/brandon/Documents/Systems Organization/Lab1_Adder/16-Bit_Adder.vhdl
+l0
+L34
+VM;08^:KUmGV6<0S2elUCE0
+!s100 <KS^IC9YUX_RMDR2o8>oi0
+R4
+32
+Z27 !s110 1424417532
+!i10b 1
+Z28 !s108 1424417532.451000
+Z29 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/16-Bit_Adder.vhdl|
+Z30 !s107 C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/16-Bit_Adder.vhdl|
+!i113 1
+R5
+R6
+Astruct
+R1
+R2
+DEx4 work 15 addersubtractor 0 22 M;08^:KUmGV6<0S2elUCE0
+l58
+L42
+Voh258_@8DDg0m7j]^LnaU1
+!s100 l:[dWjcf3e<hNz]E178[M0
+R4
+32
+R27
+!i10b 1
+R28
+R29
+R30
+!i113 1
+R5
+R6
+Eaddsub16
+Z31 w1424418409
+R1
+R2
+R3
+Z32 8C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/16-Bit_AddSub.vhdl
+Z33 FC:/Users/brandon/Documents/Systems Organization/Lab1_Adder/16-Bit_AddSub.vhdl
+l0
+L34
+VS5znWka9^N`6mR6jZmGRb3
+!s100 2VLPL_Lce;iQ]Fm5?;Oz41
+R4
+32
+R11
+!i10b 1
+Z34 !s108 1424420716.227000
+Z35 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/16-Bit_AddSub.vhdl|
+Z36 !s107 C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/16-Bit_AddSub.vhdl|
+!i113 1
+R5
+R6
+Astruct
+R1
+R2
+DEx4 work 8 addsub16 0 22 S5znWka9^N`6mR6jZmGRb3
+l57
+L42
+VJ`0ZKDPG]aV@e2D0Ml0oS0
+!s100 LUKYl``SJWF9Jc<H[C3Ub0
+R4
+32
+R11
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R5
+R6
+Ebit_adder
+R8
+R1
+R2
+R3
+R9
+R10
+l0
+L11
+VIE]9d^P;aDdPlKNnh96Hj0
+!s100 92:WPza17fH6132L@jL3?1
+R4
+32
+Z37 !s110 1424420715
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R5
+R6
+Abhv
+R1
+R2
+DEx4 work 9 bit_adder 0 22 IE]9d^P;aDdPlKNnh96Hj0
+l18
+L17
+VLMlkcNeiDXn]m]doR?CYa2
+!s100 8OikVjO_W6EiUFeclzkjD3
+R4
+32
+R37
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R5
+R6
+Efull_adder
+R31
+R1
+R2
+R3
+R32
+R33
+l0
+L19
+V_;3d[]190]Q>3S=X12iE[3
+!s100 d`ck@hd0o@[Pa7PeFlIDi2
+R4
+32
+R11
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R5
+R6
+Aarch
+R1
+R2
+DEx4 work 10 full_adder 0 22 _;3d[]190]Q>3S=X12iE[3
+l25
+L24
+Vl1G=Lb]bbfU>zB<PUFi6`3
+!s100 mflaiz`fE3JjG[@h?gG^c3
+R4
+32
+R11
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R5
+R6
+Etest_add
+Z38 w1423128777
+R1
+R2
+R3
+Z39 8C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_1_bit_Adder.vhdl
+Z40 FC:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_1_bit_Adder.vhdl
+l0
+L15
+V74ac1Bj>HRz>Mdz0QiRd92
+!s100 7ReO^TALU2_fYa[g289h13
+R4
+32
+Z41 !s110 1424420714
+!i10b 1
+Z42 !s108 1424420714.352000
+Z43 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_1_bit_Adder.vhdl|
+Z44 !s107 C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_1_bit_Adder.vhdl|
+!i113 1
+R5
+R6
+Atest
+DEx4 work 9 bit_adder 0 22 1Z:^]:Do=dGWomA?I^9kO1
+R1
+R2
+DEx4 work 8 test_add 0 22 74ac1Bj>HRz>Mdz0QiRd92
+l41
+L19
+VWCFN[7><]KcEzflQdBzVG3
+!s100 G3a]Y?V6JO@_L<e`GgcNG2
+R4
+32
+R41
+!i10b 1
+R42
+R43
+R44
+!i113 1
+R5
+R6
+Etest_add2
+Z45 w1423225530
+R1
+R2
+R3
+Z46 8C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_2_bit_Adder.vhdl
+Z47 FC:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_2_bit_Adder.vhdl
+l0
+L16
+V:jW1Cfezh53BQaQKZ<BdS3
+!s100 [K8]nU;aeAj>lKFnf`dCL0
+R4
+32
+R41
+!i10b 1
+Z48 !s108 1424420714.946000
+Z49 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_2_bit_Adder.vhdl|
+Z50 !s107 C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_2_bit_Adder.vhdl|
+!i113 1
+R5
+R6
+Atest
+R15
+R1
+R2
+DEx4 work 9 test_add2 0 22 :jW1Cfezh53BQaQKZ<BdS3
+l34
+L21
+Vhj>`@80>9FL0L>j5:DhhG2
+!s100 1GG9EjELSF[O;Fl>hk2J^3
+R4
+32
+R41
+!i10b 1
+R48
+R49
+R50
+!i113 1
+R5
+R6
+Etest_add4
+R16
+R1
+R2
+R7
+Z51 8C:/Users/brandon/Documents/Systems Organization/lab1/Test_4_bit_Adder.vhdl
+Z52 FC:/Users/brandon/Documents/Systems Organization/lab1/Test_4_bit_Adder.vhdl
+l0
+L17
+VhJ9Ub9W_SJNEF1CmHj?T53
+!s100 LkmcgXze@771DzbeTYH5T1
+R4
+32
+Z53 !s110 1423225540
+!i10b 1
+Z54 !s108 1423225540.688000
+Z55 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/lab1/Test_4_bit_Adder.vhdl|
+Z56 !s107 C:/Users/brandon/Documents/Systems Organization/lab1/Test_4_bit_Adder.vhdl|
+!i113 1
+R5
+R6
+Atest
+R23
+R1
+R2
+DEx4 work 9 test_add4 0 22 hJ9Ub9W_SJNEF1CmHj?T53
+l35
+L22
+VHloDiKM5omcL=Om9fOnC=3
+!s100 0C@ijAo:P2oO4JJk;K?Hi1
+R4
+32
+R53
+!i10b 1
+R54
+R55
+R56
+!i113 1
+R5
+R6
+Etest_addsub16
+Z57 w1424420413
+R1
+R2
+R3
+Z58 8C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_16-Bit_AddSub.vhdl
+Z59 FC:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_16-Bit_AddSub.vhdl
+l0
+L4
+V>Qm>4UFZT_e^B<AaOc21T2
+!s100 `lgJe:Vc6m1K]Uhm5EWo80
+R4
+32
+Z60 !s110 1424420717
+!i10b 1
+Z61 !s108 1424420716.868000
+Z62 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_16-Bit_AddSub.vhdl|
+Z63 !s107 C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/Test_16-Bit_AddSub.vhdl|
+!i113 1
+R5
+R6
+Aarch
+R1
+R2
+Z64 DEx4 work 13 test_addsub16 0 22 >Qm>4UFZT_e^B<AaOc21T2
+l21
+L7
+VbQ09QVISimWD9[LB8aSNJ3
+!s100 7ZXcODnUG8e@XgDj?N[7L0
+R4
+32
+R60
+!i10b 1
+R61
+R62
+R63
+!i113 1
+R5
+R6
+Ctest_cfg
+etest_addsub16
+aarch
+DEx4 work 8 addsub16 0 22 J9lkFT??_fKg?BV<4j7AY3
+DAx4 work 13 test_addsub16 4 arch 22 73gQ6^f2iRCdE9bUVfQKV2
+R1
+R2
+R64
+w1424413212
+R3
+R58
+R59
+l0
+L103
+V?We?J@NB88=k`0Dg2_=DT3
+!s100 AXI;1oM;Wif8FBj9EPaGa2
+R4
+32
+!s110 1424417534
+!i10b 0
+!s108 1424417533.701000
+R62
+R63
+!i113 1
+R5
+R6
+Etwobitadder
+Z65 w1423798776
+R1
+R2
+R3
+Z66 8C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/2bit_adder.vhdl
+Z67 FC:/Users/brandon/Documents/Systems Organization/Lab1_Adder/2bit_adder.vhdl
+l0
+L4
+VYQ?TBkh2O5@l;^Y?SSMY00
+!s100 7bAJL4iIT3hnn5hZ7L6z51
+R4
+32
+Z68 !s110 1423851513
+!i10b 1
+Z69 !s108 1423851513.444000
+Z70 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/2bit_adder.vhdl|
+Z71 !s107 C:/Users/brandon/Documents/Systems Organization/Lab1_Adder/2bit_adder.vhdl|
+!i113 1
+R5
+R6
+Aadder
+R1
+R2
+DEx4 work 11 twobitadder 0 22 YQ?TBkh2O5@l;^Y?SSMY00
+l11
+L9
+VM5MB^NX?>M<zcz_B<GC;T3
+!s100 >^3WF8CBZd9kgNcIJVdV:3
+R4
+32
+R68
+!i10b 1
+R69
+R70
+R71
+!i113 1
+R5
+R6
+Exorgate
+R31
+R1
+R2
+R3
+R32
+R33
+l0
+L5
+V6L<DDKbbP7E2O;;oHeIXj0
+!s100 X:3j=?bZS2O6`Re=VaS6Q3
+R4
+32
+R11
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R5
+R6
+Aarch
+R1
+R2
+DEx4 work 7 xorgate 0 22 6L<DDKbbP7E2O;;oHeIXj0
+l11
+L10
+V?gRE5TKCI50K4_MUL6JFj0
+!s100 lGTMFR@khk14>hd>SGj?H0
+R4
+32
+R11
+!i10b 1
+R34
+R35
+R36
+!i113 1
+R5
+R6

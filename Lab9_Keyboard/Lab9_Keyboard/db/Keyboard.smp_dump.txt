@@ -1,0 +1,6 @@
+
+State Machine - |keyboard_interfaces|keyboard_interface:inst|ps2_rec:rec|current_state
+Name current_state.done current_state.receive current_state.idle 
+current_state.idle 0 0 0 
+current_state.receive 0 1 1 
+current_state.done 1 0 1 

@@ -1,0 +1,229 @@
+Simulator report for eight_bit_equal_port
+Thu Mar 05 02:19:24 2015
+Quartus II Version 9.1 Build 304 01/25/2010 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2010 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 48 nodes     ;
+; Simulation Coverage         ;      58.33 % ;
+; Total Number of Transitions ; 86           ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++---------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                    ;
++--------------------------------------------------------------------------------------------+--------------------------+---------------+
+; Option                                                                                     ; Setting                  ; Default Value ;
++--------------------------------------------------------------------------------------------+--------------------------+---------------+
+; Simulation mode                                                                            ; Functional               ; Timing        ;
+; Start time                                                                                 ; 0 ns                     ; 0 ns          ;
+; Simulation results format                                                                  ; CVWF                     ;               ;
+; Vector input source                                                                        ; eight_bit_equal_port.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                       ; On            ;
+; Check outputs                                                                              ; Off                      ; Off           ;
+; Report simulation coverage                                                                 ; On                       ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                       ; On            ;
+; Display missing 1-value coverage report                                                    ; On                       ; On            ;
+; Display missing 0-value coverage report                                                    ; On                       ; On            ;
+; Detect setup and hold time violations                                                      ; Off                      ; Off           ;
+; Detect glitches                                                                            ; Off                      ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                      ; Off           ;
+; Generate Signal Activity File                                                              ; Off                      ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                      ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                      ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                       ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE               ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                      ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                      ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                     ; Auto          ;
++--------------------------------------------------------------------------------------------+--------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;      58.33 % ;
+; Total nodes checked                                 ; 48           ;
+; Total output ports checked                          ; 48           ;
+; Total output ports with complete 1/0-value coverage ; 28           ;
+; Total output ports with no 1/0-value coverage       ; 20           ;
+; Total output ports with no 1-value coverage         ; 20           ;
+; Total output ports with no 0-value coverage         ; 20           ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++------------------------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                                              ;
++-----------------------------------+-----------------------------------+------------------+
+; Node Name                         ; Output Port Name                  ; Output Port Type ;
++-----------------------------------+-----------------------------------+------------------+
+; |eight_bit_equal_port|aeqb~0      ; |eight_bit_equal_port|aeqb~0      ; out0             ;
+; |eight_bit_equal_port|aeqb~1      ; |eight_bit_equal_port|aeqb~1      ; out0             ;
+; |eight_bit_equal_port|aeqb~2      ; |eight_bit_equal_port|aeqb~2      ; out0             ;
+; |eight_bit_equal_port|aeqb~3      ; |eight_bit_equal_port|aeqb~3      ; out0             ;
+; |eight_bit_equal_port|aeqb~4      ; |eight_bit_equal_port|aeqb~4      ; out0             ;
+; |eight_bit_equal_port|aeqb~5      ; |eight_bit_equal_port|aeqb~5      ; out0             ;
+; |eight_bit_equal_port|aeqb~6      ; |eight_bit_equal_port|aeqb~6      ; out0             ;
+; |eight_bit_equal_port|a[0]        ; |eight_bit_equal_port|a[0]        ; out              ;
+; |eight_bit_equal_port|a[1]        ; |eight_bit_equal_port|a[1]        ; out              ;
+; |eight_bit_equal_port|a[3]        ; |eight_bit_equal_port|a[3]        ; out              ;
+; |eight_bit_equal_port|a[4]        ; |eight_bit_equal_port|a[4]        ; out              ;
+; |eight_bit_equal_port|a[7]        ; |eight_bit_equal_port|a[7]        ; out              ;
+; |eight_bit_equal_port|b[0]        ; |eight_bit_equal_port|b[0]        ; out              ;
+; |eight_bit_equal_port|b[1]        ; |eight_bit_equal_port|b[1]        ; out              ;
+; |eight_bit_equal_port|b[3]        ; |eight_bit_equal_port|b[3]        ; out              ;
+; |eight_bit_equal_port|b[4]        ; |eight_bit_equal_port|b[4]        ; out              ;
+; |eight_bit_equal_port|aeqb        ; |eight_bit_equal_port|aeqb        ; pin_out          ;
+; |eight_bit_equal_port|equal:H8|Eq ; |eight_bit_equal_port|equal:H8|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H8|P0 ; |eight_bit_equal_port|equal:H8|P0 ; out0             ;
+; |eight_bit_equal_port|equal:H5|P0 ; |eight_bit_equal_port|equal:H5|P0 ; out0             ;
+; |eight_bit_equal_port|equal:H5|P1 ; |eight_bit_equal_port|equal:H5|P1 ; out0             ;
+; |eight_bit_equal_port|equal:H4|P0 ; |eight_bit_equal_port|equal:H4|P0 ; out0             ;
+; |eight_bit_equal_port|equal:H4|P1 ; |eight_bit_equal_port|equal:H4|P1 ; out0             ;
+; |eight_bit_equal_port|equal:H2|P0 ; |eight_bit_equal_port|equal:H2|P0 ; out0             ;
+; |eight_bit_equal_port|equal:H2|P1 ; |eight_bit_equal_port|equal:H2|P1 ; out0             ;
+; |eight_bit_equal_port|equal:H1|Eq ; |eight_bit_equal_port|equal:H1|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H1|P0 ; |eight_bit_equal_port|equal:H1|P0 ; out0             ;
+; |eight_bit_equal_port|equal:H1|P1 ; |eight_bit_equal_port|equal:H1|P1 ; out0             ;
++-----------------------------------+-----------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++------------------------------------------------------------------------------------------+
+; Missing 1-Value Coverage                                                                 ;
++-----------------------------------+-----------------------------------+------------------+
+; Node Name                         ; Output Port Name                  ; Output Port Type ;
++-----------------------------------+-----------------------------------+------------------+
+; |eight_bit_equal_port|a[2]        ; |eight_bit_equal_port|a[2]        ; out              ;
+; |eight_bit_equal_port|a[5]        ; |eight_bit_equal_port|a[5]        ; out              ;
+; |eight_bit_equal_port|a[6]        ; |eight_bit_equal_port|a[6]        ; out              ;
+; |eight_bit_equal_port|b[2]        ; |eight_bit_equal_port|b[2]        ; out              ;
+; |eight_bit_equal_port|b[5]        ; |eight_bit_equal_port|b[5]        ; out              ;
+; |eight_bit_equal_port|b[6]        ; |eight_bit_equal_port|b[6]        ; out              ;
+; |eight_bit_equal_port|b[7]        ; |eight_bit_equal_port|b[7]        ; out              ;
+; |eight_bit_equal_port|equal:H8|P1 ; |eight_bit_equal_port|equal:H8|P1 ; out0             ;
+; |eight_bit_equal_port|equal:H7|Eq ; |eight_bit_equal_port|equal:H7|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H7|P0 ; |eight_bit_equal_port|equal:H7|P0 ; out0             ;
+; |eight_bit_equal_port|equal:H7|P1 ; |eight_bit_equal_port|equal:H7|P1 ; out0             ;
+; |eight_bit_equal_port|equal:H6|Eq ; |eight_bit_equal_port|equal:H6|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H6|P0 ; |eight_bit_equal_port|equal:H6|P0 ; out0             ;
+; |eight_bit_equal_port|equal:H6|P1 ; |eight_bit_equal_port|equal:H6|P1 ; out0             ;
+; |eight_bit_equal_port|equal:H5|Eq ; |eight_bit_equal_port|equal:H5|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H4|Eq ; |eight_bit_equal_port|equal:H4|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H3|Eq ; |eight_bit_equal_port|equal:H3|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H3|P0 ; |eight_bit_equal_port|equal:H3|P0 ; out0             ;
+; |eight_bit_equal_port|equal:H3|P1 ; |eight_bit_equal_port|equal:H3|P1 ; out0             ;
+; |eight_bit_equal_port|equal:H2|Eq ; |eight_bit_equal_port|equal:H2|Eq ; out0             ;
++-----------------------------------+-----------------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++------------------------------------------------------------------------------------------+
+; Missing 0-Value Coverage                                                                 ;
++-----------------------------------+-----------------------------------+------------------+
+; Node Name                         ; Output Port Name                  ; Output Port Type ;
++-----------------------------------+-----------------------------------+------------------+
+; |eight_bit_equal_port|a[2]        ; |eight_bit_equal_port|a[2]        ; out              ;
+; |eight_bit_equal_port|a[5]        ; |eight_bit_equal_port|a[5]        ; out              ;
+; |eight_bit_equal_port|a[6]        ; |eight_bit_equal_port|a[6]        ; out              ;
+; |eight_bit_equal_port|b[2]        ; |eight_bit_equal_port|b[2]        ; out              ;
+; |eight_bit_equal_port|b[5]        ; |eight_bit_equal_port|b[5]        ; out              ;
+; |eight_bit_equal_port|b[6]        ; |eight_bit_equal_port|b[6]        ; out              ;
+; |eight_bit_equal_port|b[7]        ; |eight_bit_equal_port|b[7]        ; out              ;
+; |eight_bit_equal_port|equal:H8|P1 ; |eight_bit_equal_port|equal:H8|P1 ; out0             ;
+; |eight_bit_equal_port|equal:H7|Eq ; |eight_bit_equal_port|equal:H7|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H7|P0 ; |eight_bit_equal_port|equal:H7|P0 ; out0             ;
+; |eight_bit_equal_port|equal:H7|P1 ; |eight_bit_equal_port|equal:H7|P1 ; out0             ;
+; |eight_bit_equal_port|equal:H6|Eq ; |eight_bit_equal_port|equal:H6|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H6|P0 ; |eight_bit_equal_port|equal:H6|P0 ; out0             ;
+; |eight_bit_equal_port|equal:H6|P1 ; |eight_bit_equal_port|equal:H6|P1 ; out0             ;
+; |eight_bit_equal_port|equal:H5|Eq ; |eight_bit_equal_port|equal:H5|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H4|Eq ; |eight_bit_equal_port|equal:H4|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H3|Eq ; |eight_bit_equal_port|equal:H3|Eq ; out0             ;
+; |eight_bit_equal_port|equal:H3|P0 ; |eight_bit_equal_port|equal:H3|P0 ; out0             ;
+; |eight_bit_equal_port|equal:H3|P1 ; |eight_bit_equal_port|equal:H3|P1 ; out0             ;
+; |eight_bit_equal_port|equal:H2|Eq ; |eight_bit_equal_port|equal:H2|Eq ; out0             ;
++-----------------------------------+-----------------------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II Simulator
+    Info: Version 9.1 Build 304 01/25/2010 Service Pack 1 SJ Web Edition
+    Info: Processing started: Thu Mar 05 02:19:24 2015
+Info: Command: quartus_sim --read_settings_files=on --write_settings_files=off eight_bit_equal_port -c eight_bit_equal_port
+Info: Using vector source file "C:/Users/brandon/Documents/Systems Organization/Lab0_Comparator_Quartus/eight_bit_equal_port.vwf"
+Info: Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info: Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info: Simulation partitioned into 1 sub-simulations
+Info: Simulation coverage is      58.33 %
+Info: Number of transitions in simulation is 86
+Info: Quartus II Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 153 megabytes
+    Info: Processing ended: Thu Mar 05 02:19:24 2015
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
